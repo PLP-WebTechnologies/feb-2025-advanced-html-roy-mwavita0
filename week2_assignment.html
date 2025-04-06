@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta information about the document -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration and Contacts Page</title>
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header>
+        <h1>Welcome to Our Contact & Registration Page</h1>
+    </header>
+
+    <!-- Navigation section -->
+    <nav>
+        <ul>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#registration">Registration Form</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content section -->
+    <main>
+
+        <!-- Ordered list with Roman numerals -->
+        <section>
+            <h2>Important Steps</h2>
+            <ol type="I">
+                <li>Step one: Review the information.</li>
+                <li>Step two: Complete the form.</li>
+                <li>Step three: Submit and confirm.</li>
+            </ol>
+        </section>
+
+        <!-- External Image from Pexels -->
+        <section>
+            <h2>Image from Pexels</h2>
+            <img src="https://images.pexels.com/photos/31420261/pexels-photo-31420261/free-photo-of-modern-curved-architectural-abstract-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beautiful Nature" width="500">
+        </section>
+
+        <!-- Table of Contacts -->
+        <section id="contacts">
+            <h2>Our Contacts</h2>
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Elm Street</td>
+                    <td>+1 234 567 890</td>
+                    <td>johndoe@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Oak Avenue</td>
+                    <td>+1 234 567 891</td>
+                    <td>janesmith@example.com</td>
+                </tr>
+                <tr>
+                    <td>Robert Brown</td>
+                    <td>789 Pine Road</td>
+                    <td>+1 234 567 892</td>
+                    <td>robertbrown@example.com</td>
+                </tr>
+                <tr>
+                    <td>Alice Green</td>
+                    <td>101 Maple Blvd</td>
+                    <td>+1 234 567 893</td>
+                    <td>alicegreen@example.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Blue</td>
+                    <td>202 Cedar Lane</td>
+                    <td>+1 234 567 894</td>
+                    <td>michaelblue@example.com</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Registration Form -->
+        <section id="registration">
+            <h2>Registration Form</h2>
+            <form action="#" method="POST">
+
+                <!-- Name Field -->
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+                <!-- Email Field -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                <!-- Password Field -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Create a password" required><br><br>
+
+                <!-- Date Field -->
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+
+                <!-- Dropdown (Select) -->
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="usa">United States</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="australia">Australia</option>
+                </select><br><br>
+
+                <!-- Radio Buttons (Gender) -->
+                <label for="gender">Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other" required>
+                <label for="other">Other</label><br><br>
+
+                <!-- Checkboxes (Newsletter Subscription) -->
+                <label for="newsletter">Subscribe to Newsletter:</label><br>
+                <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                <label for="newsletter">Yes, I would like to receive updates.</label><br><br>
+
+                <!-- Submit Button -->
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2025 Your Website. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
